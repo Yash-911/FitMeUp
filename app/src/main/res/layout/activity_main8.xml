@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/settings"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="140dp">
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="108dp"
+            android:layout_height="117dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="136dp"
+            android:layout_marginRight="136dp"
+            android:layout_marginBottom="0dp"
+            android:onClick="home5" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="251dp"
+            android:layout_marginRight="251dp"
+            android:layout_marginBottom="6dp"
+            android:onClick="diet4" />
+
+        <Button
+            android:id="@+id/button14"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginBottom="118dp"
+            android:onClick="logout" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

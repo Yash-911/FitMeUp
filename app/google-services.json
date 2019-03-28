@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "445964219891",
+    "firebase_url": "https://fitmeup-3d47f.firebaseio.com",
+    "project_id": "fitmeup-3d47f",
+    "storage_bucket": "fitmeup-3d47f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445964219891:android:401d55afdaf6e879",
+        "android_client_info": {
+          "package_name": "com.example.yash_pc.fitmeup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445964219891-raclv8feuoosnj6gg1iao8bdm009v7m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yash_pc.fitmeup",
+            "certificate_hash": "499430691dd88ac989f91796c3bd9d0e7a2627e3"
+          }
+        },
+        {
+          "client_id": "445964219891-ulcblptt0e47l752a1idkcam01t6dmaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqocUAndrUl0AaR9rsM3nydWrA6gAdD5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445964219891-ulcblptt0e47l752a1idkcam01t6dmaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

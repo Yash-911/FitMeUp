@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main11Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:theme="@style/Base.Widget.AppCompat.Button.Borderless"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffff"
+                        android:text="If you feel like eating, ask yourself if you’d like to have an apple. If the answer is ‘no’, you’re most likely bored rather than hungry."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffff"
+                        android:text="Exercising before going to bed makes your muscles burn more calories during the night."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textColor="#ffff"
+                        android:text="A mid-day nap improves your memory and reduces the chances of developing heart diseases."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffff"
+                        android:text="Skipping a meal can cause you to gain weight. Your body thinks you’re going through a famine, which makes burning calories more difficult."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffff"
+                        android:text="Drink two cups of cold water before a meal, as this boosts metabolism by up to 30%."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffff"
+                        android:text="Drinking a lot of water during the day helps you sleep better at night."
+                        android:textAlignment="gravity"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffff"
+                        android:text="Natural pineapple juice is 5 times more effective than cough syrup. It can also prevent baldness, and even the flu."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffff"
+                        android:text="Make an effort to eat a home-cooked meal at least 5 times a week. A recent study found that this may extend your life by a whole decade."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffff"
+                        android:text="A cold shower can help relieve depression and also helps keep your skin and hair healthier."
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cd10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffff"
+                        android:text="If you’ve worn shoes for a long period of time, rub alcohol on your feet. This will help disinfect the regions that are susceptible to fungus."
+                        android:textAlignment="gravity"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:theme="?android:attr/borderlessButtonStyle" />
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
