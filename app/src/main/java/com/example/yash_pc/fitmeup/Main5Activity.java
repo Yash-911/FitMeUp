@@ -71,9 +71,9 @@ public class Main5Activity extends AppCompatActivity {
         intent.putExtra(AlarmClock.EXTRA_MINUTES,10);
         startActivity(intent);
     }
-    public void diet1(View v)
+    public void re1(View v)
     {
-        Intent intent=new Intent(Main5Activity.this,Main6Activity.class);
+        Intent intent=new Intent(Main5Activity.this,Main10Activity.class);
         startActivity(intent);
     }
     public void settings1(View v)

@@ -32,7 +32,8 @@
         <activity android:name=".Main9Activity" />
         <activity android:name=".Main10Activity" />
         <activity android:name=".PasswordActivity" />
-        <activity android:name=".Main11Activity"></activity>
+        <activity android:name=".Main11Activity" />
+        <activity android:name=".Main12Activity"></activity>
     </application>
 
 </manifest>

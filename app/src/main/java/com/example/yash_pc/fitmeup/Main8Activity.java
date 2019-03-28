@@ -35,9 +35,9 @@ public class Main8Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void diet4(View v)
+    public void re4(View v)
     {
-        Intent intent=new Intent(Main8Activity.this,Main6Activity.class);
+        Intent intent=new Intent(Main8Activity.this,Main10Activity.class);
         startActivity(intent);
     }
     public void logout(View v)

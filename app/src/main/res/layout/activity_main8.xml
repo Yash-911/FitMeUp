@@ -16,28 +16,28 @@
         <Button
             android:id="@+id/button20"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="108dp"
-            android:layout_height="117dp"
+            android:layout_width="122dp"
+            android:layout_height="110dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="136dp"
-            android:layout_marginRight="136dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginRight="128dp"
             android:layout_marginBottom="0dp"
             android:onClick="home5" />
 
         <Button
             android:id="@+id/button21"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="63dp"
-            android:layout_height="wrap_content"
+            android:layout_width="133dp"
+            android:layout_height="68dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="251dp"
             android:layout_marginRight="251dp"
             android:layout_marginBottom="6dp"
-            android:onClick="diet4" />
+            android:onClick="re4" />
 
         <Button
             android:id="@+id/button14"

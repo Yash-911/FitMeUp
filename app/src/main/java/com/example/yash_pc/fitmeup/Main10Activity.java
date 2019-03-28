@@ -84,7 +84,7 @@ public class Main10Activity extends AppCompatActivity {
         });
     }
     private void setRecyclerViewData() {
-        friendArraylist.add(new Friend("101","Rutvik", "Student"));
+        //friendArraylist.add(new Friend("101","Rutvik", "Student"));
     }
 
     private View.OnClickListener onAddingListener() {

@@ -82,9 +82,9 @@ public class Main7Activity extends AppCompatActivity implements SensorEventListe
         Intent intent=new Intent(Main7Activity.this,Main8Activity.class);
         startActivity(intent);
     }
-    public void diet3(View v)
+    public void re3(View v)
     {
-        Intent intent=new Intent(Main7Activity.this,Main6Activity.class);
+        Intent intent=new Intent(Main7Activity.this,Main10Activity.class);
         startActivity(intent);
     }
 }

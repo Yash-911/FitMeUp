@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Main6Activity extends AppCompatActivity {
-    Button b,b1;
+    Button b,b1,b2;
     ImageView iv;
     TextView tv1,tv2;
 
@@ -23,6 +23,7 @@ public class Main6Activity extends AppCompatActivity {
         tv2=(TextView)findViewById(R.id.textView8);
         b=(Button)findViewById(R.id.button15);
         b1=(Button)findViewById(R.id.button13);
+        b2=(Button)findViewById(R.id.button30);
     }
 
     public void settings3(View v)
@@ -33,6 +34,11 @@ public class Main6Activity extends AppCompatActivity {
     public void home3(View v)
     {
         Intent intent=new Intent(Main6Activity.this,Main4Activity.class);
+        startActivity(intent);
+    }
+    public void re2(View v)
+    {
+        Intent intent=new Intent(Main6Activity.this,Main10Activity.class);
         startActivity(intent);
     }
 }

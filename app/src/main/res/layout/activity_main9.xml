@@ -32,6 +32,7 @@
             android:layout_marginRight="80dp"
             android:ems="10"
             android:hint="Enter your phone number"
+            android:textColorHint="#ffff"
             android:inputType="textPersonName" />
 
         <EditText
@@ -44,30 +45,31 @@
             android:layout_marginBottom="226dp"
             android:ems="10"
             android:hint="Enter OTP"
+            android:textColorHint="#ffff"
             android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/button22"
-            android:layout_width="wrap_content"
+            android:layout_width="129dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="211dp"
-            android:layout_marginEnd="145dp"
-            android:layout_marginRight="145dp"
-            android:onClick="send_sms"
-            android:text="Send Sms" />
+            android:layout_marginTop="206dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginRight="125dp"
+            android:background="@drawable/but"
+            android:onClick="send_sms" />
 
         <Button
             android:id="@+id/button23"
-            android:layout_width="wrap_content"
+            android:layout_width="148dp"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/button22"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="-8dp"
-            android:layout_marginBottom="148dp"
-            android:onClick="verifys"
-            android:text="Verify Code" />
+            android:layout_marginEnd="-16dp"
+            android:layout_marginBottom="133dp"
+            android:background="@drawable/buts"
+            android:onClick="verifys" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
