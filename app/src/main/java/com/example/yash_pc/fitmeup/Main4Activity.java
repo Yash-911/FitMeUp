@@ -47,7 +47,7 @@ public class Main4Activity extends AppCompatActivity {
     }
     public void diet(View v)
     {
-        Intent intent=new Intent(Main4Activity.this,Main6Activity.class);
+        Intent intent=new Intent(Main4Activity.this,Main14Activity.class);
         startActivity(intent);
     }
     public void settings4(View v)

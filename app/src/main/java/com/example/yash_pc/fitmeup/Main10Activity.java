@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 
@@ -26,14 +27,16 @@ public class Main10Activity extends AppCompatActivity {
 
     public RecyclerView recyclerView;
     public RecyclerAdapter adapter;
+    ProgressBar progressBar;
     public List<Friend> friendArraylist;
     public FloatingActionButton fab;
-
     DatabaseReference databasecalorie;
+    int total=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main10);
+        progressBar=(ProgressBar)findViewById(R.id.progressBar);
         friendArraylist = new ArrayList<>();
         recyclerView = findViewById(R.id.recycle_view);
         fab = findViewById(R.id.fab);
@@ -52,8 +55,10 @@ public class Main10Activity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
         fab.setOnClickListener(onAddingListener());
+        progressBar.setMax(3500);
+        progressBar.setProgress(total);
     }
-
+/*
     @Override
     protected void onStart()
     {
@@ -82,9 +87,16 @@ public class Main10Activity extends AppCompatActivity {
 
             }
         });
-    }
+    }*/
     private void setRecyclerViewData() {
-        //friendArraylist.add(new Friend("101","Rutvik", "Student"));
+        friendArraylist.add(new Friend("101","Poha", "125"));
+        friendArraylist.add(new Friend("101","Orange juice", "75"));
+        friendArraylist.add(new Friend("101","Idli", "245"));
+        friendArraylist.add(new Friend("101","Masala Dosa", "175"));
+        friendArraylist.add(new Friend("101","Paneer Tikka", "455"));
+        friendArraylist.add(new Friend("101","Noodles", "265"));
+        friendArraylist.add(new Friend("101","Paneer Chilly", "355"));
+        total=125+75+245+175+455+265+355;
     }
 
     private View.OnClickListener onAddingListener() {
@@ -118,7 +130,8 @@ public class Main10Activity extends AppCompatActivity {
                 String id;
 
                 id=databasecalorie.push().getKey();
-
+                total=total+Integer.parseInt(cal.getText().toString());
+                progressBar.setProgress(total);
                 Friend friend = new Friend(id,foodname.getText().toString().trim(),cal.getText().toString().trim());
                 databasecalorie.child("Friend").setValue(friend);
                 Toast.makeText(Main10Activity.this,"DATA RECORDED",Toast.LENGTH_SHORT).show();

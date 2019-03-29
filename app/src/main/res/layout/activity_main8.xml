@@ -27,23 +27,10 @@
             android:onClick="home5" />
 
         <Button
-            android:id="@+id/button21"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="133dp"
-            android:layout_height="68dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="251dp"
-            android:layout_marginRight="251dp"
-            android:layout_marginBottom="6dp"
-            android:onClick="re4" />
-
-        <Button
             android:id="@+id/button14"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="109dp"
-            android:layout_height="wrap_content"
+            android:layout_width="152dp"
+            android:layout_height="89dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
@@ -51,5 +38,38 @@
             android:layout_marginRight="27dp"
             android:layout_marginBottom="118dp"
             android:onClick="logout" />
+
+        <Button
+            android:id="@+id/button31"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:onClick="profileact" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:onClick="camera"
+            app:srcCompat="@drawable/photo" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="105dp"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="0dp"
+            android:onClick="re4" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

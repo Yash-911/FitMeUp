@@ -4,7 +4,13 @@
     android:id="@+id/card_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="6dp">
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    cardview:layout_goneMarginBottom="10dp"
+    android:layout_marginBottom="6dp"
+    cardview:cardBackgroundColor="#000000"
+    cardview:cardCornerRadius="20dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,8 +19,10 @@
 
         <ImageView
             android:id="@+id/image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
             android:padding="5dp"
             android:src="@mipmap/ellipse" />
 
@@ -26,13 +34,17 @@
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="10dp"
                 android:text=""
-                android:textColor="@android:color/holo_blue_dark" />
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/job"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|center_horizontal"
                 android:layout_below="@+id/name"
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="-1dp"

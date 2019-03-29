@@ -81,7 +81,7 @@ public abstract class RecyclerAdapter<F> extends RecyclerView.Adapter<RecyclerAd
     /**
      * View holder to display each RecylerView item
      */
-    protected class ViewHolder extends RecyclerView.ViewHolder {
+    protected static class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView foodname;
         private TextView cal;

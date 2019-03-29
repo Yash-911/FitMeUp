@@ -21,9 +21,9 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="60dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginBottom="276dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginBottom="294dp"
             android:onClick="alarm" />
 
         <Button
@@ -47,9 +47,9 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="46dp"
-            android:layout_marginLeft="46dp"
-            android:layout_marginBottom="366dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginBottom="380dp"
             android:onClick="diet" />
 
         <Button
@@ -60,22 +60,22 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="212dp"
-            android:layout_marginEnd="38dp"
-            android:layout_marginRight="38dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
             android:onClick="steps" />
 
         <Button
             android:id="@+id/button26"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="134dp"
-            android:layout_height="70dp"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="0dp"
             android:layout_marginLeft="0dp"
-            android:layout_marginTop="497dp"
+            android:layout_marginTop="507dp"
             android:onClick="recyclerlog" />
 
         <Button
@@ -86,9 +86,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="28dp"
-            android:layout_marginRight="28dp"
-            android:layout_marginBottom="380dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="392dp"
             android:onClick="healthtips" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

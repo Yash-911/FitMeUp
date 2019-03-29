@@ -22,5 +22,4 @@ class Friend {
         return cal;
     }
 
-
 }
